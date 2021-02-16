@@ -1,3 +1,16 @@
+@media only screen and (min-width: 768px) {
+    /* body {
+        background-color: lightblue;
+    } */
+    img#product {
+        /* width: 80%; */
+        /* height: 20%; */
+        /* height: 625px; */
+        height: 650px;
+        /* height: 500px; */
+    }
+}
+
 
 .navbar img{
     width: 100px;
@@ -326,97 +339,128 @@ textarea{
     color: #777777;
 }
 .submit-btn{
-        font-size: 14px;
-        font-family: 'Open Sans';
-        font-weight: bold;
-        margin-top: 40px;
-        margin-bottom: 120px;
-        text-align: center;
-        text-transform: uppercase;
-        padding: 15px 20px;
-        background-color: #ffffff;
-        border: 1px solid #ececec;
-        border-radius: 8px;
-    }
+    font-size: 14px;
+    font-family: 'Open Sans';
+    font-weight: bold;
+    margin-top: 40px;
+    margin-bottom: 120px;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 15px 20px;
+    background-color: #ffffff;
+    border: 1px solid #ececec;
+    border-radius: 8px;
+}
 .submit-btn:hover{
-        background-color: #f65aa7;
-        color: #ffffff;
-    }     
-    .product-top-1{
+    background-color: #f65aa7;
+    color: #ffffff;
+}     
+.product-top-1{
     background-image: url('../image/201/a1-01.png');
-    background-size: cover;
+    /* background-size: cover; */
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
     padding-left: 60px;
 }
 .product-top-2{
     background-image: url('../image/201/a2-01.png');
-    background-size: cover;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
     padding-left: 60px;
 
 }
 .product-top-3{
     background-image: url('../image/201/a3-01.png');
-    background-size: cover;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
     padding-left: 60px;
 
 }
 .product-top-4{
     background-image: url('../image/201/a4-01.png');
-    background-size: cover;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
     padding-left: 60px;
 }
 .product-top-5{
     background-image: url('../image/201/a6-01.png');
-    background-size: cover;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
     padding-left: 60px;
 }
 .product-top-6{
     background-image: url('../image/201/a5-01.png');
-    background-size: cover;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
     padding-left: 60px;
 }
 .product-top-7{
     background-image: url('../image/201/a7-01.png');
-    background-size: cover;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
     padding-left: 60px;
 }
 .product-top-8{
     background-image: url('../image/201/a8-01.png');
-    background-size: cover;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
     padding-left: 60px;
 }
 .product-top-9{
     background-image: url('../image/201/a9-01.png');
-    background-size: cover;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
     padding-left: 60px;
 }
 .product-top-10{
     background-image: url('../image/201/a10-01-01.png');
-    background-size: cover;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
     padding-left: 60px;
 }
 .product-top-11{
     background-image: url('../image/201/a11-01.png');
-    background-size: cover;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
     padding-left: 60px;
 }
 .product-top-12{
     background-image: url('../image/201/a12-01.png');
-    background-size: cover;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
     padding-left: 60px;
 }
 .product-top-13{
     background-image: url('../image/201/a13-01.png');
-    background-size: cover;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
     padding-left: 60px;
 }
 .product-top-14{
     background-image: url('../image/201/a14-01.png');
-    background-size: cover;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
     padding-left: 60px;
 }
 .product-top-15{
     background-image: url('../image/201/a15-01.png');
-    background-size: cover;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
     padding-left: 60px;
 }
 
@@ -442,20 +486,20 @@ margin-right: 50px;
     
 }
 .container {
-position: relative;
-width: 100%;
-margin-top: 200px;
+    position: relative;
+    width: 100%;
+    margin-top: 200px;
 }
 
 .image {
-transition: .5s ease;
-opacity: 0;
-position: absolute;
-top: 50%;
-left: 50%;
-transform: translate(-50%, -50%);
--ms-transform: translate(-50%, -50%);
-text-align: center;
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
 }
 
 .middle {
@@ -477,22 +521,22 @@ opacity: 1;
 }
 
 .text {
-background-color: rgb(230,190,138);
-color: white;
-font-size: 20px;
-padding: 16px 32px;
+    background-color: rgb(230,190,138);
+    color: white;
+    font-size: 20px;
+    padding: 16px 32px;
 }
 .container .overlay {
-position: absolute;
-top: 0;
-bottom: 0;
-left: 0px;
-right: 0;
-height: 100%;
-width: 100%;
-opacity: 0;
-transition: .5s ease;
-background-color: #008CBA;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0px;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #008CBA;
 }
 .overlay {
     text-align: center;
@@ -502,20 +546,25 @@ background-color: #008CBA;
     position: absolute;
     left: 0px;
     width: 100%;
-    height: fit-content;
+    /* height: fit-content; */
+    height: 105%;
     /* margin-bottom: 1px;
     padding-bottom: 1px; */
 }
+span.center {
+    width: fit-content;
+}
+
 .container:hover .dd {
-color:black;
-font-size: 20px;
-position: absolute;
-top: 70%;
-left: 50%;
--webkit-transform: translate(-50%, -50%);
--ms-transform: translate(-50%, -50%);
-transform: translate(-50%, -50%);
-text-align: center;
+    color:black;
+    font-size: 20px;
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
 }
 .col3-height{
     min-height: 300px;
