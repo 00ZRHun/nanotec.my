@@ -1,8 +1,45 @@
+/* NavigationBar */
+.main-container.nav-bg-color {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    background-color: white;
+    z-index: 1;
+}
+
+.owl-carousel.owl-theme.scren-owl.owl-loaded.owl-drag {
+    z-index: 0;
+}
+
+    /* Scrollspy */
+    #scrollableContainer {
+        position: relative;
+        /* height: 80%; */
+        top: 120px;
+        height: 650px;
+        overflow-y: scroll;
+    }
+
+    a.nav-link {
+        font-size: larger;
+        font-weight: bolder;
+        /* opacity: 0.5; */
+    }
+
+    .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show>.nav-link {
+        color: white !important;
+        /* background-color: pink; */
+        background-color: black;
+    }
+    /* /Scrollspy */
+/* /NavigationBar */
+
+/* Home */
 @media only screen and (min-width: 768px) {
     /* body {
         background-color: lightblue;
     } */
-    img#product {
+    img#coverImage {
         /* width: 80%; */
         /* height: 20%; */
         /* height: 625px; */
@@ -11,6 +48,121 @@
     }
 }
 
+.image-container {
+    position: relative;
+}
+.image-container>img {
+    margin-top: 0px !important;
+    opacity: 0.8;
+}
+.image-container>a {
+    position: absolute;
+    font-weight: bolder;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /* background-color: lightblue;
+    opacity: 0.5; */
+    background-color: rgba(255, 255, 255, 0.8);
+    /* opacity: 0.8; */
+}
+/* /Home */
+
+/* Number Counter */
+/* .number {
+    display: inline-block;
+    padding: 10px 0;
+}
+.count-title {
+    font-size:50px;
+    font-family:'Fjalla',sans-serif;
+    color:#fff;
+    display:inline-block;
+    font-weight:600;
+    margin-top:10px;
+    margin-bottom:0;
+    text-align:center;
+    margin-left:10px
+}
+.count-text {
+    font-size:18px;
+    font-weight:normal;
+    margin-top:-5px;
+    margin-bottom:0;
+    text-align:center;
+    color:#ffa1f6;
+    text-transform:uppercase;
+    letter-spacing:.8px;
+    font-weight:700
+}
+.fa{display:inline-block;font:normal normal normal 14px/1 FontAwesome;font-size:inherit;text-rendering:auto;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}
+fa-handshake-o:before{content:"\f2b5"}
+.fa-thumbs-o-up:before{content:"\f087"} */
+/* /Number Counter */
+
+/* .image-container {
+    position: relative;
+}
+.image-container>img {
+    margin-top: 80px !important;
+    opacity: 0.8;
+}
+.image-container>a {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+} */
+/* /Home */
+
+/* About Us */
+section#aboutUs {
+    padding-left: 50px;
+    padding-right: 50px;
+    font-size: medium;
+}
+
+@media (min-width: 760px) {
+    .locationNBranchBreakpoint {
+        padding-top: 45px;
+    } 
+}
+@media (max-width: 430px) {
+    .locationNBranchBreakpoint {
+        padding-top: 25px;
+        padding-bottom: 45px;
+    } 
+}
+/* /About Us */
+
+/* Owl */
+
+.owl-seci .owl-theme .owl-dots .owl-dot span {
+    /* background: red!important; */
+    background: black !important;
+    width: 10px!important;
+    height: 10px!important;
+    border-radius: 0;
+}
+.owl-dot {
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+    /* box-shadow: 1px 1px 0 0 darkcyan; */
+    box-shadow: 1px 1px 0 0 white !important;
+    border: 1px solid #ccc;
+    background: #eceeef;
+    margin-right: 5px;
+    display: inline-block;
+    /* opacity: 0; */
+}
+.owl-theme .owl-dots .owl-dot.active {
+    background: #ffffff!important;
+    /* border: 2px solid #9fd7ef; */
+    border: 0px solid white !important;
+    opacity: 0.5;
+}
+/* /Owl */
 
 .navbar img{
     width: 100px;
@@ -168,10 +320,9 @@ max-height: 550px;
 }
 .grey{
     max-width: 2000px;
-    margin-top: 50px;
+    margin-top: 15px;
     width: 100%;
     background-color: rgb(240, 240, 240);
-
 }
 .inside-container {
     max-width: 1480px;
@@ -278,7 +429,7 @@ max-height: 550px;
     padding: 35px 30px;
     }
     
-
+/* Header */
 .our-header h2{
     font-weight: bold;
     font-family: 'Roboto Slab', serif;
@@ -286,7 +437,27 @@ max-height: 550px;
     text-transform: uppercase;
     text-decoration: none;
     text-align: center;
+    margin-top: 60px;
 }
+.prom-padd {
+    padding-bottom: 30px !important;
+}
+/* /Header */
+
+/* sendMsgBtn */
+/* .sendMsgBtn { */
+input.submit-btn.btn-lg.primary-btn.sendMsgBtn {
+    font-size: x-large;
+    font-weight: border;
+    width: 50%;
+    border-radius: 25px;
+    color: white;
+    background-color: rgb(8, 44, 250);
+
+}
+
+/* /sendMsgBtn */
+
 .rotate-45{
         transform: rotate(45deg);
         margin-right: -4px;

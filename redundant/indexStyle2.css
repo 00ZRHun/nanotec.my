@@ -1,0 +1,31 @@
+.overlay>center {
+    /* margin-top: auto; */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 18px;
+    /* display: block; */
+    display: inline-block;
+}
+.overlay>center>a {
+    display: inline; /* the default for span */
+    /* width: 100px;
+    height: 100px;
+    padding: 5px;
+    border: 1px solid blue;  
+    background-color: yellow;  */
+}
+
+/* === V2 === */
+.product-top button {
+    position: relative;
+    /* top: auto;
+    bottom: auto; */
+    /* top: 50%;
+    bottom: 50%; */
+    /* position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); */
+}

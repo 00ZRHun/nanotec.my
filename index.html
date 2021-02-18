@@ -1,4 +1,3 @@
-
 <!doctype html>
 <html lang="en">
   <head>
@@ -21,302 +20,485 @@
     <title>Kitchen Sink Outlet</title>
     <link rel="shortcut icon" href="image/logo.jpg" type="image/x-icon" />
     <link rel="apple-touch-icon" href="image/logo.jpg">
+
+    <!-- Number Counter -->
+    <link rel="stylesheet" href="css/assets/theme/css/style2aec.css?v=40">
+	  <link rel="stylesheet" href="css/assets/homepage5e1f.css?v=2">
+    
+      <!-- EXTERNAL JAVASCRIPT -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <!-- /Number Counter -->
+
+    <!-- Scrollspy -->
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous"> -->
+    <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script> -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <!-- /Scrollspy -->
+
+    <!-- Font Awesome -->
+    <!-- <link rel="stylesheet" href="fontawesome-free-5.15.2-web/css/all.css"> -->
+    <!-- /Font Awesome -->
+
     <meta name="keywords" content="">
     <meta name="description" content="">
     <meta name="author" content="">
   </head>
-  <body>
-    <!--menu-->
+  <body data-spy="scroll" data-target=".navbar" data-offset="50">
+    <!-- menu -->
     <div class="main-container nav-bg-color">
-      <div class="inside-container nav-contain">
-        <nav class="navbar navbar-expand-lg navbar-light fixed-top scrolling-navbar">
-          <img src="image/logo.jpg" class="img-fluid" alt="">
-          <img src="image/logo-01-01.png" class="img-fluid" alt="" width="100%">
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-            <div class="navbar-nav nav-list ml-auto">
-	            <a class="menu" href="index.html">HOME</a>
-	            <a class="menu" href="about.html">ABOUT US</a>
-	            <a class="menu" href="#product">KITCHEN SINK</a>
-	            <a class="menu" href="#testimonials">TESTIMONIALS</a>    
-	            <a class="menu  last-spc" href="#contact">CONTACT</a>
-	           
-
-          </div>
-         </div>
-        </nav>
+        <div class="inside-container nav-contain">
+                                <!-- class="navbar navbar-light bg-light px-3" -->
+            <nav id="navbar-example" class="navbar navbar-expand-lg navbar-light bg-light px-3 fixed-top">
+            <!-- <nav id="navbar-example" class="navbar navbar-expand-lg navbar-light fixed-top scrolling-navbar"> -->
+                <img src="image/logo.jpg" class="img-fluid" alt="">
+                <img src="image/logo-01-01.png" class="img-fluid" alt="" width="100%">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav nav-list ml-auto">
+                        <a class="nav-link" type="button" href="#home">HOME</a>
+                        <!-- <a class="menu" href="#home">HOME</a> -->
+                        <a class="nav-link" type="button" href="#aboutUs">ABOUT US</a>
+                        <a class="nav-link" type="button" href="#product">KITCHEN SINK</a>
+                        <a class="nav-link" type="button" href="#testimonials">TESTIMONIALS</a>    
+                        <!-- <a class="nav-link last-spc" href="#contact">CONTACT</a> -->
+                        <a class="nav-link" type="button" href="#contact">CONTACT</a>
+                    </div>
+                </div>
+            </nav>
         </div>
      </div> 
+    <!-- /menu -->
     
-    <img width="100%" height="auto" src="image/sink_cover_img.webp" style="margin-top: 130px;" alt=""
+    
 
-  
-
-<section id="product">
-  <div class="main-container promotion-bg">
-    <div class="inside-container">
-      <div class="grey">
-        <div class="row">
-            <div class="col-12 our-header prom-padd">
-                <h2> Product Center</h2>
-              <div  class="text-center">
-                  <hr> <i class="far fa-square rotate-45"></i> <i class="far fa-square rotate-45"></i> <hr> 
-              </div>
-          </div> 
-        </div>
-      
-        <!-- Display Product -->
-        <!-- <div class="row" width=100%> -->
-          <div id="displayProducts"></div>
-        <!-- </div> -->
-        
-        <!-- /Display Product -->
-      </div>
-    </div>
-  </div>
-</section>
-<div class="main-container"> 
-  <div class="inside-container">  
-    <div class="row">
-      <div class="col-12 our-header prom-padd">
-        <h2>Interior Designer Strongly Recommended</h2>
-        <div class="grey">
-          
-          <video width="1700" height="550" controls style="border:0; height: 450px; width: 100%;">
-          <source src="image/Kitchen.mp4" type="video/mp4" style="border:0; height: 450px; width: 100%;">
-          <source src="image/Kitchen.mp4" type="video/ogg" style="border:0; height: 450px; width: 100%;">
-        
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-<div class="main-container"> 
-  <div class="inside-container">  
-    <div class="row">
-      <div class="col-12 our-header prom-padd">
-        <h2>Company News</h2>
-      <div  class="text-center">
-          <hr> <i class="far fa-square rotate-45"></i> <i class="far fa-square rotate-45"></i> <hr>
-      </div>
-     
-      </div>
-    </div>
-<div class="container">
-  
-  <div class="center">
-    <div class="text">03/07/19</div>  
-    <div class="lin">Archidex Exhibition</div>
-  </div>
-    <img src="image/b-01.jpg" alt="Avatar" class="image" style="width:100%" style="height:100%">   
-  
-  </div>
-  <h2></h2>
-  
-</div>
-</div>
-</div>
-</div>
-
-<section id="testimonials">
-<div class="main-container">
-  <div class="inside-container">
-      <div class="row"> 
-          <div class="col-12 our-header prom-padd">
-              <h2>Testimonials</h2>
-            <div  class="text-center">
-                <hr> <i class="far fa-square rotate-45"></i> <i class="far fa-square rotate-45"></i> <hr>
-            </div>
-           
-            </div>
-          </div>
-             <div class="row">
-            <div class="col-12 owl-seci">
-                <div  class="owl-carousel owl-theme scren-owl">	
-                    <div class="item item-over ">
-                    <div class="item-bg item-bg-1">                        
-                      <div class="over-image">                                                     
-                        </div>
+    <!-- scrollableContainer -->
+    <!-- Bootstrap 5 -->
+    <!-- <div id="scrollableContainer" data-bs-spy="scroll" data-bs-target="#navbar-example" data-bs-offset="0" tabindex="0"> -->
+    <!-- Bootstrap 4 -->
+    <!-- <div id="scrollableContainer" data-spy="scroll" data-target="#navbar-example" data-offset="0" tabindex="0"> -->
+    <div id="scrollableContainer" data-spy="scroll" data-target="#navbar-example" data-offset="50">
+        <!-- Home -->
+        <!-- <section id="home" class="mt-0">
+            <img width="100%" id="coverImage" height="auto" src="image/sink_cover_img.webp" alt="">
+        </section> -->
+        <!-- <section id="home" class="mt-5"></section> -->
+        <section id="home">
+            <div class="main-container mt-0">
+                <!-- <div class="inside-container mx-3 px-3"> -->
+                <div class="inside-container">
+                    <div class="row image-container">
+                        <img id="coverImage" class="mt-0" width="100%" height="auto" src="image/sink_cover_img.webp" alt="">
+                        <a href="https://wa.me/60187770878?text=I+want+to+learn+more+about+*Kitchen+Sink*." target="_blank" type="button" class="btn btn-lg btn-outline-primary" style="font-size: xx-large;">Contact Us</a>
                     </div>
-                  </div>
-                  <div class="item item-over">
-                      <div class="item-bg item-bg-2">                    
-                          <div class="over-image">                            
+                </div>
+            </div>
+        </section>
+        <!-- /Home -->
+
+        <!-- About Us -->
+        <!-- <div class="container my-5" style="font-size: medium; background-color: white;"> -->
+        <section id="aboutUs">
+            <!-- <div class="main-container promotion-bg"> -->
+            <div class="main-container mt-0">
+                <!-- <div class="inside-container mx-3 px-3"> -->
+                <div class="inside-container">
+                    <div class="row"> 
+                        <div class="col-12 our-header prom-padd">
+                            <h2>About Us</h2>
+                            <div class="text-center">
+                                <hr> <i class="far fa-square rotate-45"></i> <i class="far fa-square rotate-45"></i> <hr>
                             </div>
                         </div>
                     </div>
-                    <div class="item item-over">
-                        <div class="item-bg item-bg-3">                    
-                            <div class="over-image">                          
-                              </div>
-                          </div>
-                      </div>
-                      <div class="item item-over">
-                          <div class="item-bg item-bg-4">
-                      
-                              <div class="over-image">
-  
+
+                    <div class="row text-justify">
+                        <div class="col-sm">
+                            <p>&nbsp;&nbsp;&nbsp;&nbsp; We have been manufacturing high-end stainless steel sinks with the most advanced level of expertise in the industry.Our factory and products are certified by international quality standards organizations.</p>
+                            <p>&nbsp;&nbsp;&nbsp;&nbsp; NANO SINK is a Nano Shield Antibacterials and Antifungal which bring high quality and high technologies Kitchen Sink.</p>
+                            <p>&nbsp;&nbsp;&nbsp;&nbsp; Our sink is a specially formulated and eco-friendly coating that is applied in the manufacturer for the kitchen sink. Most importantly that it has anti-bacteria feature. It helps you to reduce stain and does not trap grease/oil.</p>
+                            <p>&nbsp;&nbsp;&nbsp;&nbsp; These perfect sink are made of heavy-duty SUS 304 stainless steel and constructed with thicker gauge steel come with Stone Guard undercoating and rubber dampening pads.</p>
+                        </div>
+                    </div>
+
+                    <div class="row text-left" border=1>
+                        <div class="col-sm">
+                            <h3>Our Store:</h3>
+                            🗺️𝐀𝐝𝐝𝐫𝐞𝐬𝐬 - 𝐉𝐁 𝐁𝐫𝐚𝐧𝐜𝐡<br>
+                            📍 https://bit.ly/2V3hJIc<br>
+                            🏠 No. 35, Jalan Bakawali 50, Johor Jaya, 81100, Johor Bahru, Johor.<br>
+                            (Near to the IKEA Tebrau and AEON Tebrau, only 1km 5 mins drive)<br>
+                            （距离IKEA Tebrau和AEON Tebrau City只需一公里5分钟的车程）<br>
+                            📞 018-777 0878 /0187847137/ 0127010878 (Jennifer Lee)<br>
+                            📲 WhatsApp: http://bit.ly/2WKmwi1<br>
+                        </div>
+                        <!-- <div class="col-sm pt-5"> -->
+                        <div class="col-sm locationNBranchBreakpoint">
+                            🗺️𝐀𝐝𝐝𝐫𝐞𝐬𝐬 - 𝐏𝐮𝐜𝐡𝐨𝐧𝐠 𝐒𝐞𝐥𝐚𝐧𝐠𝐨𝐫 <br>
+                            📍 7, Jalan Bandar 16, Pusat Bandar Puchong, 47100 Puchong, Selangor.<br>
+                            📞 012-334 3519 (JEFF)<br>
+                            📲 WhatsApp: https://wa.me/<br>
+                        </div>
+                
+                        <div class="col-sm pt-1">
+                            <h3>USA Branch:</h3>
+                            Galong <br>
+                            2 Alcap Ridge <br>
+                            Cromwell, Connecticut 06416, <br>
+                            Tel. 860-805-<br>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- /About Us -->
+
+        <!-- Number Counter -->
+        <section class="mbr-section mbr-section-small nopadding mt-5" id="featuresguaranteed">
+            <div class="row">
+            <div class="col-lg-12 col-xs-12 text-xs-center">
+                <div class="container mt-0 pt-0">
+                <div class="row">
+                    <div class="col-12 our-header prom-padd">
+                    <h2 class="mt-0 pt-0">Why Choose Us</h2>
+                    <div class="text-center">
+                        <hr> <i class="far fa-square rotate-45"></i> <i class="far fa-square rotate-45"></i> <hr> 
+                    </div>
+                    </div> 
+                </div>
+                <!-- <h2>We are the foremost dynamic solution provider of video and multimedia content from Malaysia.</h2> -->
+                <h2>We are the foremost international kitchen sink from Malaysia.</h2>
+                <div class="row loadanimate" id="loadanimate">
+                    <div class="col-md-4 col-xs-12">
+                        <div class="number short_hr">
+                            <i class="fa fa-users fa-2x"></i>
+                            <h2 class="timer count-title" data-from="0" data-to="300" data-speed="700" data-refresh-interval="5">300</h2>
+                            <span>+</span><p class="count-text">Satisfied Customers</p>
+                            <hr class="short">
+                        </div>
+                    </div>
+                
+                    <div class="col-md-4 col-xs-12">
+                        <div class="number short_hr">
+                            <i class="fa fa-handshake-o fa-2x"></i>
+                            <h2 class="timer count-title" data-from="0" data-to="500" data-speed="700" data-refresh-interval="5">500</h2>
+                            <span>+</span><p class="count-text">Successful Projects</p>
+                            <hr class="short">
+                        </div>
+                    </div>
+                
+                    <div class="col-md-4 col-xs-12">
+                        <div class="number short_hr">
+                            <i class="fa fa-thumbs-o-up fa-2x"></i>
+                            <h2 class="timer count-title" data-from="0" data-to="100" data-speed="700" data-refresh-interval="5">100</h2>
+                            <span>%</span><p class="count-text">Guaranteed Result</p>
+                            <hr class="short">
+                        </div>
+                    </div>
+                </div>
+                </div>
+            </div>
+            </div>
+        </section>
+        <!-- /Number Counter -->
+
+        <!-- product -->
+        <section id="product">
+            <div class="main-container promotion-bg">
+                <div class="inside-container">
+                    <div class="grey">
+                        <div class="row">
+                            <div class="col-12 our-header prom-padd">
+                                <h2 style="margin-top: 45px;"> Product Center</h2>
+                            <div class="text-center">
+                                <hr> <i class="far fa-square rotate-45"></i> <i class="far fa-square rotate-45"></i> <hr> 
+                            </div>
+                        </div> 
+                        </div>
+                    
+                        <!-- Display Product -->
+                        <!-- <div class="row" width=100%> -->
+                        <div id="displayProducts"></div>
+                        <!-- </div> -->
+                        
+                        <!-- /Display Product -->
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- /product -->
+
+
+
+        <div class="main-container"> 
+            <div class="inside-container">  
+                <div class="row">
+                <div class="col-12 our-header prom-padd">
+                    <h2>Interior Designer Strongly Recommended</h2>
+                    <div class="grey">
+                    
+                    <video width="1700" height="550" controls style="border:0; height: 450px; width: 100%;">
+                    <source src="image/Kitchen.mp4" type="video/mp4" style="border:0; height: 450px; width: 100%;">
+                    <source src="image/Kitchen.mp4" type="video/ogg" style="border:0; height: 450px; width: 100%;">
+                    
+                    </div>
+                </div>
+                </div>
+            </div>
+        </div>
+        <div class="main-container"> 
+            <div class="inside-container">  
+                <div class="row">
+                <div class="col-12 our-header prom-padd">
+                    <h2>Company News</h2>
+                <div class="text-center">
+                    <hr> <i class="far fa-square rotate-45"></i> <i class="far fa-square rotate-45"></i> <hr>
+                </div>
+                
+                </div>
+                </div>
+            <div class="container">
+            
+            <div class="center">
+                <div class="text">03/07/19</div>  
+                <div class="lin">Archidex Exhibition</div>
+            </div>
+                <img src="image/b-01.jpg" alt="Avatar" class="image" style="width:100%" style="height:100%">   
+            
+            </div>
+            <h2></h2>
+            
+            </div>
+        </div>
+        <!-- </div> -->
+        <!-- </div> -->
+
+        <!-- Testimonials -->
+        <section id="testimonials">
+            <div class="main-container">
+                <div class="inside-container">
+                    <div class="row"> 
+                        <div class="col-12 our-header prom-padd">
+                            <h2>Testimonials</h2>
+                            <div class="text-center">
+                                <hr> <i class="far fa-square rotate-45"></i> <i class="far fa-square rotate-45"></i> <hr>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-12 owl-seci mt-0">
+                            <div class="owl-carousel owl-theme scren-owl">	
+                                <div class="item item-over ">
+                                    <div class="item-bg item-bg-1">                        
+                                        <div class="over-image"></div>
+                                    </div>
+                                </div>
+                                <div class="item item-over">
+                                    <div class="item-bg item-bg-2">                    
+                                        <div class="over-image"></div>
+                                    </div>
+                                </div>
+                                <div class="item item-over">
+                                    <div class="item-bg item-bg-3">                    
+                                        <div class="over-image"></div>
+                                    </div>
+                                </div>
+                                <div class="item item-over">
+                                    <div class="item-bg item-bg-4">
+                                        <div class="over-image"></div>
+                                    </div>
+                                </div>
+                                <div class="item item-over">
+                                    <div class="item-bg item-bg-5">
+                                        <div class="over-image"></div>
+                                    </div>
+                                </div>
+                                <div class="item item-over">
+                                    <div class="item-bg item-bg-6">                    
+                                        <div class="over-image"></div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="item item-over">
-                            <div class="item-bg item-bg-5">
-                      
-                                <div class="over-image">
-                                
-                                  </div>
-                              </div>
-                          </div>
-                    <div class="item item-over">
-                      <div class="item-bg item-bg-6">                    
-                        <div class="over-image">
-                         
-                        </div>
-                      </div>
                     </div>
-                  
                 </div>
             </div>
-            </div>
-      </div>
-  </div>
-  </section>
-  <div class="col-md-12"> 
-    <div class="our-header">
-      <h2> Sink Outlet, Johor</h2>
-      <div class="text-center">
-          <hr> <i class="far fa-square rotate-45"></i> <i class="far fa-square rotate-45"></i> <hr> 
-      </div>
-    </div>
-    
-    <object style="border:0; height: 450px; width: 100%;" data="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.3765196483723!2d103.7958597524243!3d1.540376075325597!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31da6c3dabafb9c9%3A0x7959488d51fff3a4!2s35%2C%20Jalan%20Bakawali%2050%2C%20Johor%20Jaya%2C%2081100%20Johor%20Bahru%2C%20Johor!5e0!3m2!1szh-CN!2smy!4v1609137021261!5m2!1szh-CN!2smy"></object>
-    </div>
-    <div class="col-md-12"> 
-      <div class="our-header">
-        <h2>Nano Sink Outlet, Selangor </h2>
-        <div class="text-center">
-            <hr> <i class="far fa-square rotate-45"></i> <i class="far fa-square rotate-45"></i> <hr> 
-        </div>
-      </div>
-      <object style="border:0; height: 450px; width: 100%;" data="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3984.2127787920253!2d101.61436331419482!3d3.0375309977879463!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31cc4b55903c3ca5%3A0x6cf00085cc80d87c!2s7%2C%20Jalan%20Bandar%2016%2C%20Pusat%20Bandar%20Puchong%2C%2047100%20Puchong%2C%20Selangor!5e0!3m2!1szh-CN!2smy!4v1610350820800!5m2!1szh-CN!2smy"></object>
-     
-      </div>
-<!-- contact-->
-<section id="contact">
-<div class="main-container">
-   <div class="inside-container">
-<div class="row">
-  
-       <div class="col-md-12 ">    
-           <div class="">
-                   <div class="our-header">
-                           <h2>get in touch with us</h2>
-                           <div class="text-center">
-                               <hr> <i class="far fa-square rotate-45"></i> <i class="far fa-square rotate-45"></i> <hr> 
-                           </div>
-                         </div>
-           
+        </section>
+        <!-- /Testimonials -->
 
-            <form action="#">
-              <div class="row"> 
-            <div class="col-sm-4"> <input type="text" placeholder="Your Name*" class="sm-input"> </div>
-            <div class="col-sm-4">  <input type="email" placeholder="Your Email*"  class="sm-input"></div>
-            <div class="col-sm-4">  <input type="text" placeholder="Website"  class="sm-input"></div>
-           </div>
-             <input type="text" placeholder="Subject" class="sb-input">
-             <textarea  rows="6" class="area-text" placeholder="Type Your Mesage Here..."></textarea>
-            <div class="text-center">  <input type="submit" value="send mesage" class="submit-btn" ></div>
-            </form>
+        <!-- Contact-->
+        <section id="contact">
+            <div class="main-container mt-0">
+                <div class="inside-container">
+                    <div class="row">
+                        <div class="col-md-12 our-header prom-padd">
+                            <div class="our-header">
+                                <h2>get in touch with us</h2>
+                                <div class="text-center">
+                                    <hr> <i class="far fa-square rotate-45"></i> <i class="far fa-square rotate-45"></i> <hr> 
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- <div class="row"> -->
+                    <form action="#" class="mx-5 row">
+                        <div class="col-sm-4"> <input type="text" placeholder="Your Name*" class="sm-input">   </div>
+                        <div class="col-sm-4"> <input type="email" placeholder="Your Email*" class="sm-input"> </div>
+                        <div class="col-sm-4"> <input type="text" placeholder="Website" class="sm-input">      </div>
+
+                        
+                        <!-- WRONG -->
+                        <!-- <input type="text" placeholder="Subject" class="sb-input col-12">
+                            <textarea  rows="6" class="area-text col-12" placeholder="Type Your Mesage Here..."></textarea> -->
+                        <!-- CORRECT -->
+                        <div class="col-12">
+                            <input type="text" placeholder="Subject" class="sb-input">
+                        </div>
+                        <div class="col-12">
+                            <textarea  rows="6" class="area-text" placeholder="Type Your Mesage Here..."></textarea>
+                        </div>
+                        
+                        <div class="col-12 text-center">  
+                            <input type="submit" value="send message" class="submit-btn btn-lg primary-btn sendMsgBtn">
+                        </div>
+                    </form>
+                    <!-- </div> -->
+                </div>
+            </div>
+        </section>
+        <!-- Contact-->
+
+        <!-- Map -->
+        <section id="map">
+            <div class="main-container">
+                <div class="inside-container">
+                    <!-- <div class="row mb-5"> -->
+                    <div class="row">
+                        <div class="col-md-12 our-header prom-padd">
+                            <div class="our-header">
+                                <h2>Location</h2>
+                                <div class="text-center">
+                                    <hr> <i class="far fa-square rotate-45"></i> <i class="far fa-square rotate-45"></i> <hr> 
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6"> 
+                            <!-- <div class="our-header"> -->
+                            <h4 class="text-center">Sink Outlet, Johor</h4>
+                            <!-- </div> -->
+                            
+                            <object style="border:0; height: 450px; width: 100%;" data="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.3765196483723!2d103.7958597524243!3d1.540376075325597!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31da6c3dabafb9c9%3A0x7959488d51fff3a4!2s35%2C%20Jalan%20Bakawali%2050%2C%20Johor%20Jaya%2C%2081100%20Johor%20Bahru%2C%20Johor!5e0!3m2!1szh-CN!2smy!4v1609137021261!5m2!1szh-CN!2smy"></object>
+                        </div>
+                        <!-- </div>
+                            
+                        <div class="row"> -->
+                        <div class="col-md-6"> 
+                            <h4 class="text-center">Nano Sink Outlet, Selangor </h4>
+                            
+                            <object style="border:0; height: 450px; width: 100%;" data="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3984.2127787920253!2d101.61436331419482!3d3.0375309977879463!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31cc4b55903c3ca5%3A0x6cf00085cc80d87c!2s7%2C%20Jalan%20Bandar%2016%2C%20Pusat%20Bandar%20Puchong%2C%2047100%20Puchong%2C%20Selangor!5e0!3m2!1szh-CN!2smy!4v1610350820800!5m2!1szh-CN!2smy"></object>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- /Map -->
+
+        <!-- Footer -->
+        <footer class="page-footer footer-bg">
+            <div class="inside-container">
+                <div class="row footer-padd mx-3">
+                    <div class=" col-sm-6 col-lg-4 foot-col-padd">
+                    <h5> 𝐉𝐁 𝐁𝐫𝐚𝐧𝐜𝐡</h5>
+                    <div class="foot-logo"><img src="image/logo.jpg" alt="" class="img-fluid"></div>
+                        <br>
+                        <br>
+                        <br>
+                        <div>
+                
+                        <div class="row contact-row-margin"> 
+                        <i class="fas fa-map-marker-alt contact-icon"></i>
+                        <p> No. 35, Jalan Bakawali 50, Johor Jaya,<br> 81100 Johor Bahru, Johor</p>
+                        </div>
+                        <div class="row contact-row-margin">
+                        <i class="fas fa-phone fa-rotate-90 contact-icon"></i>
+                        <p><a href="https://wa.link/9mn548">+ 012-701 0878</a></p>
+                        </div>
+                        <div class="row contact-row-margin">
+                        <i class="far fa-envelope contact-icon "> </i>
+                        <p><a href="mailto:sinkfactory88@gmail.com">sinkfactory88@gmail.com</a></p>
+                        </div>
+                        <div class="row contact-row-margin">
+                        <i class="fab fa-facebook-f contact-icon "> </i>
+                        <p><a href="https://www.facebook.com/KITCHENSINKOUTLET">SINK</a></p>
+                        </div>
+                    
+                    </div>
+                </div>      
+                
+                <div class="col-sm-6 col-lg-4 foot-col-padd">
+                <h5> 𝐏𝐮𝐜𝐡𝐨𝐧𝐠 𝐒𝐞𝐥𝐚𝐧𝐠𝐨𝐫 𝐁𝐫𝐚𝐧𝐜𝐡</h5>
+                <div class="foot-logo"><img src="image/nanotec.jpg" alt="" class="img-fluid"></div>
+                    <br>
+                    <br>
+                    <br>
+                    <div>
+                    <div class="row contact-row-margin"> 
+                        <i class="fas fa-map-marker-alt contact-icon"></i>
+                        <p> 7, Jalan Bandar 16, Pusat Bandar Puchong,<br>  47100 Puchong, Selangor.</p>
+                    </div>
+                    <div class="row contact-row-margin">
+                        <i class="fas fa-phone fa-rotate-90 contact-icon"></i>
+                        <p><a href="https://wa.me/60123343519">+ 012-334 3519 (JEFF)  </a></p>
+                    </div>
+                    <div class="row contact-row-margin">
+                        <i class="far fa-envelope contact-icon "> </i>
+                        <p><a href="mailto:sinkfactory88@gmail.com">sinkfactory88@gmail.com</a></p>
+                    </div>
+                    <div class="row contact-row-margin">
+                        <i class="fab fa-facebook-f contact-icon "> </i>
+                        <p><a href="https://www.facebook.com/KITCHENSINKOUTLET">SINK</a></p>
+                    </div>
+                    </div>
+                </div>      
+                <div class=" col-sm-6 col-lg-4  pop-col">
+                    <span>popular link</span>
+                    <hr>
+                    <div class="row">
+                    <div class="col-6 pop-link">
+                        <a href="#">About Us</a> 
+                        <a href="#">Services</a>
+                        <a href="#">Gallery</a>
+                        <a href="#">Team</a>  
+                        <a href="#">Pricing</a>  
+                        
+                    </div>
+                    <div class=" col-6  pop-link">
+                        <a href="#">contact us </a> 
+                        <a href="#"> blog</a>
+                        <a href="#"> faq</a>
+                        <a href="#"> 404</a>
+                    </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+            <div class="col-12 copyright-text">  
+                <p> &#169; 2020 <a href="#">KITCHEN SINK OUTLET</a>. All Rights Reserved </p> </div>
             </div>
         </div>
+        </footer>
+        <!-- /Footer -->
     </div>
-  </div>
-</div>
-</section>
-<footer class="page-footer footer-bg">
-  <div class="inside-container">
-      <div class="row footer-padd">
-        <div class=" col-sm-6 col-lg-4 foot-col-padd">
-          <h5> 𝐉𝐁 𝐁𝐫𝐚𝐧𝐜𝐡</h5>
-          <div class="foot-logo"><img src="image/logo.jpg" alt="" class="img-fluid"></div>
-            <br>
-            <br>
-            <br>
-            <div>
-           
-                <div class="row contact-row-margin"> 
-                  <i class="fas fa-map-marker-alt contact-icon"></i>
-                  <p> No. 35, Jalan Bakawali 50, Johor Jaya,<br> 81100 Johor Bahru, Johor</p>
-                </div>
-                <div class="row contact-row-margin">
-                  <i class="fas fa-phone fa-rotate-90 contact-icon"></i>
-                  <p><a href="https://wa.link/9mn548">+ 012-701 0878</a></p>
-                </div>
-                <div class="row contact-row-margin">
-                  <i class="far fa-envelope contact-icon "> </i>
-                  <p><a href="mailto:sinkfactory88@gmail.com">sinkfactory88@gmail.com</a></p>
-                </div>
-                <div class="row contact-row-margin">
-                  <i class="fab fa-facebook-f contact-icon "> </i>
-                  <p><a href="https://www.facebook.com/KITCHENSINKOUTLET">SINK</a></p>
-                </div>
-            
-            </div>
-         </div>      
-         <div class=" col-sm-6 col-lg-4 foot-col-padd">
-          <h5> 𝐏𝐮𝐜𝐡𝐨𝐧𝐠 𝐒𝐞𝐥𝐚𝐧𝐠𝐨𝐫 𝐁𝐫𝐚𝐧𝐜𝐡</h5>
-          <div class="foot-logo"><img src="image/nanotec.jpg" alt="" class="img-fluid"></div>
-            <br>
-            <br>
-            <br>
-            <div>
-              <div class="row contact-row-margin"> 
-                <i class="fas fa-map-marker-alt contact-icon"></i>
-                <p> 7, Jalan Bandar 16, Pusat Bandar Puchong,<br>  47100 Puchong, Selangor.</p>
-              </div>
-              <div class="row contact-row-margin">
-                <i class="fas fa-phone fa-rotate-90 contact-icon"></i>
-                <p><a href="https://wa.me/60123343519">+ 012-334 3519 (JEFF)  </a></p>
-              </div>
-              <div class="row contact-row-margin">
-                <i class="far fa-envelope contact-icon "> </i>
-                <p><a href="mailto:sinkfactory88@gmail.com">sinkfactory88@gmail.com</a></p>
-              </div>
-              <div class="row contact-row-margin">
-                <i class="fab fa-facebook-f contact-icon "> </i>
-                <p><a href="https://www.facebook.com/KITCHENSINKOUTLET">SINK</a></p>
-              </div>
-            </div>
-         </div>      
-         <div class=" col-sm-6 col-lg-4  pop-col">
-            <span>popular link</span>
-            <hr>
-            <div class="row">
-              <div class="col-6 pop-link">
-                 <a href="#">About Us</a> 
-                 <a href="#">Services</a>
-                 <a href="#">Gallery</a>
-                 <a href="#">Team</a>  
-                 <a href="#">Pricing</a>  
-                  
-              </div>
-              <div class=" col-6  pop-link">
-                  <a href="#">contact us </a> 
-                  <a href="#"> blog</a>
-                  <a href="#"> faq</a>
-                  <a href="#"> 404</a>
-              </div>
-            </div>
-           </div>
-      </div>
-    <div class="row">
-      <div class="col-12 copyright-text">  
-        <p> &#169; 2020 <a href="#">KITCHEN SINK OUTLET</a>. All Rights Reserved </p> </div>
-    </div>
-  </div>
-</footer>
+    <!-- /scrollableContainer -->
+    
 </body>
 
 <!-- Optional JavaScript -->
@@ -329,7 +511,123 @@
 <script src="js/script.js">  </script>
 
 <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script> -->
-<script>
+<script>  
+    /* var scrollSpy = new bootstrap.ScrollSpy(document.getElementById("scrollableContainer"), {
+        target: '#navbar-example'
+    }) */
+      
+  // <!--Number Counter //
+  (function ($) {
+    $.fn.countTo = function (options) {
+      options = options || {};
+      
+      return $(this).each(function () {
+          // set options for current element
+          var settings = $.extend({}, $.fn.countTo.defaults, {
+              from:            $(this).data('from'),
+              to:              $(this).data('to'),
+              speed:           $(this).data('speed'),
+              refreshInterval: $(this).data('refresh-interval'),
+              decimals:        $(this).data('decimals')
+          }, options);
+          
+          // how many times to update the value, and how much to increment the value on each update
+          var loops = Math.ceil(settings.speed / settings.refreshInterval),
+              increment = (settings.to - settings.from) / loops;
+          
+          // references & variables that will change with each update
+          var self = this,
+              $self = $(this),
+              loopCount = 0,
+              value = settings.from,
+              data = $self.data('countTo') || {};
+          
+          $self.data('countTo', data);
+          
+          // if an existing interval can be found, clear it first
+          if (data.interval) {
+              clearInterval(data.interval);
+          }
+          data.interval = setInterval(updateTimer, settings.refreshInterval);
+          
+          // initialize the element with the starting value
+          render(value);
+          
+          function updateTimer() {
+              value += increment;
+              loopCount++;
+              
+              render(value);
+              
+              if (typeof(settings.onUpdate) == 'function') {
+                  settings.onUpdate.call(self, value);
+              }
+              
+              if (loopCount >= loops) {
+                  // remove the interval
+                  $self.removeData('countTo');
+                  clearInterval(data.interval);
+                  value = settings.to;
+                  
+                  if (typeof(settings.onComplete) == 'function') {
+                      settings.onComplete.call(self, value);
+                  }
+              }
+          }
+          
+          function render(value) {
+              var formattedValue = settings.formatter.call(self, value, settings);
+              $self.html(formattedValue);
+          }
+      });
+    };
+        
+    $.fn.countTo.defaults = {
+        from: 0,               // the number the element should start at
+        to: 0,                 // the number the element should end at
+        speed: 1000,           // how long it should take to count between the target numbers
+        refreshInterval: 100,  // how often the element should be updated
+        decimals: 0,           // the number of decimal places to show
+        formatter: formatter,  // handler for formatting the value before rendering
+        onUpdate: null,        // callback method for every time the element is updated
+        onComplete: null       // callback method for when the element finishes updating
+    };
+    
+    function formatter(value, settings) {
+      return value.toFixed(settings.decimals);
+    }
+  }(jQuery));
+    
+  jQuery(function ($) {
+    // custom formatting example
+    $('.count-number').data('countToOptions', {
+      formatter: function (value, options) {
+        return value.toFixed(options.decimals).replace(/\B(?=(?:\d{3})+(?!\d))/g, ',');
+      }
+    });
+    
+    // start all the timers
+    $('.timer').each(count);  
+    
+    function count(options) {
+      var $this = $(this);
+      options = $.extend({}, options || {}, $this.data('countToOptions') || {});
+      $this.countTo(options);
+    }
+  });
+  // Number Counter--> //
+
+  
+
+  // Scrollspy--> //
+  $(document).ready(function(){
+    $('body').scrollspy({target: ".navbar", offset: 50});   
+  });
+  // <!--Scrollspy //
+
+
+
+  // <!--Displays Product //
   var html
   var oneRowproductHtml = ''
   var productNameArr = ["375(BL)-7546 SIZE.750X460X220mm", "375(G)-7546 SIZE.750X460X220mm", "375(RG)-7546 SIZE.750X460X220mm", "391(BL)-9146 SIZE.910X460X220mm", "391(G)-9146 SIZE.910X460X220mm", "391(RG)-9146 SIZE.910X460X220mm", "B384(BL)-8446 SIZE.840X460x220mm", "B384(NA)-8446 SIZE.840X460x220mm", "B384(RG)-8446 SIZE.840X460x220mm", "L383(G)-8346", "L383(Na)-8346", "L383(RG)-8346", "L399(BL)-8245 SIZE.820X450X220mm", "L399(G)-8245 SIZE.820X450X220mm", "L399(NA)-8245 SIZE.820X450X220mm"];
@@ -365,9 +663,6 @@
     oneRowproductHtml += ('<div class="row">' + singleProduct + '</div>')
 
   }
-
-  
-  
   
   // OPTION 1 (WORK) //
   document.getElementById('displayProducts').innerHTML += oneRowproductHtml
@@ -375,6 +670,7 @@
   // OPTION 2 (NOT WORK) //
   // *** CHK IT OUT ***
   // document.getElementById('displayProducts').append(oneRowproductHtml)
-
+  // Displays Product--> //
 </script>
+
 </html>
