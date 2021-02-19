@@ -1,4 +1,11 @@
 /* NavigationBar */
+/* a.nav-link {
+    display: block;
+    position: relative;
+    top: -250px;
+    visibility: hidden;
+} */
+
 .main-container.nav-bg-color {
     position: -webkit-sticky;
     position: sticky;
@@ -12,11 +19,27 @@
 }
 
     /* Scrollspy */
-    #scrollableContainer {
+    #scrollableContainer123 {
         position: relative;
         /* height: 80%; */
-        top: 120px;
-        height: 650px;
+        /* top: 120px; */
+
+        /* height // min-height */
+        /* height: 2000px; */
+
+        height: 50%;
+        /* min-height: 80%; */
+        /* bottom: 0px; */
+        top: 20%;
+        overflow-y: scroll;
+    }
+    #scrollableContainer {
+        position: relative;
+        height: 50%;
+        /* height: 768px;
+        height: 768px; */
+        height: -webkit-fill-available;
+        top: 100px;
         overflow-y: scroll;
     }
 
@@ -31,6 +54,25 @@
         /* background-color: pink; */
         background-color: black;
     }
+
+    a.anchor {
+        display: block;
+        position: relative;
+        top: -110px;
+        visibility: hidden;
+    }
+    /* Bad choice -> offsetting an html anchor to adjust for fixed header */
+    /*  */
+    /* section {
+        position: relative;
+    }
+    section>div#aboutUs, 
+    section>div#product, 
+    section>div#testimonials, 
+    section>div#contact {
+        position: absolute; 
+        top: -75px;
+    } */
     /* /Scrollspy */
 /* /NavigationBar */
 
@@ -117,8 +159,8 @@ fa-handshake-o:before{content:"\f2b5"}
 
 /* About Us */
 section#aboutUs {
-    padding-left: 50px;
-    padding-right: 50px;
+    /* padding-left: 50px;
+    padding-right: 50px; */
     font-size: medium;
 }
 
@@ -136,7 +178,6 @@ section#aboutUs {
 /* /About Us */
 
 /* Owl */
-
 .owl-seci .owl-theme .owl-dots .owl-dot span {
     /* background: red!important; */
     background: black !important;
@@ -163,6 +204,13 @@ section#aboutUs {
     opacity: 0.5;
 }
 /* /Owl */
+
+/* Footer */
+.row.contact-row-margin>div {
+    display: table-cell;
+    vertical-align: middle;
+}
+/* /Footer */
 
 .navbar img{
     width: 100px;
@@ -449,7 +497,7 @@ max-height: 550px;
 input.submit-btn.btn-lg.primary-btn.sendMsgBtn {
     font-size: x-large;
     font-weight: border;
-    width: 50%;
+    width: 80%;
     border-radius: 25px;
     color: white;
     background-color: rgb(8, 44, 250);
