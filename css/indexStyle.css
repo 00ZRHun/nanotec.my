@@ -7,6 +7,10 @@
     background-color: white !important;
     color: rgb(230,190,138) !important;
     border-color: rgb(230,190,138) !important;
+
+    border-style: solid;
+    border-width: thick;
+    /* border: rgb(230,190,138); */
 }
 /* /unify */
 
