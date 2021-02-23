@@ -86,8 +86,19 @@
         /* height: 20%; */
         /* height: 625px; */
         height: 650px;
+        /* display: none; */
         /* height: 500px; */
     }
+
+    a#contactUsBtn {
+        font-size: xxx-large;
+        /* background-color: red; */
+    }
+}
+
+a.btn.btn-lg.btn-outline-primary.text-uppercase {
+    font-size: xx-small;
+    /* background-color: black; */
 }
 
 .image-container {
@@ -195,13 +206,19 @@ section#aboutUs {
     background: #eceeef;
     margin-right: 5px;
     display: inline-block;
-    /* opacity: 0; */
+
+        /* Add on */
+        /* opacity: 0; */
+        /* /Add on */
 }
 .owl-theme .owl-dots .owl-dot.active {
     background: #ffffff!important;
     /* border: 2px solid #9fd7ef; */
-    border: 0px solid white !important;
-    opacity: 0.5;
+        
+        /* Add on */
+        border: 0px solid white !important;
+        opacity: 0.5;
+        /* /Add on */
 }
 /* /Owl */
 
@@ -497,11 +514,11 @@ max-height: 550px;
 input.submit-btn.btn-lg.primary-btn.sendMsgBtn {
     font-size: x-large;
     font-weight: border;
-    width: 80%;
+    /* width: 80%; */
+    width: 100%;
     border-radius: 25px;
     color: white;
     background-color: rgb(8, 44, 250);
-
 }
 
 /* /sendMsgBtn */
